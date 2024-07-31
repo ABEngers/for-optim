@@ -6,7 +6,6 @@
 <pre>
 <details>
 <summary>.git</summary>
-
 .git
 ├── hooks
 │ ├── applypatch-msg.sample
@@ -170,58 +169,54 @@
 ├── description
 ├── HEAD
 └── index
-
-css
-コードをコピーする
-
 </details>
-
 <details>
 <summary>.vscode</summary>
-
 .vscode
 ├── c_cpp_properties.json
 ├── launch.json
 └── settings.json
-
-bash
-コードをコピーする
-
 </details>
-
-.
-├── 2022_TeamB
-│ ├── .vscode
-│ │ ├── c_cpp_properties.json
-│ │ ├── launch.json
-│ │ └── settings.json
-│ ├── ArduinoUNO
-│ │ └── DS4.ino
-│ └── STM32f446re
-│ ├── Library
-│ │ ├── OmniMove
-│ │ │ ├── OmniMove.cpp
-│ │ │ └── OmniMove.h
-│ │ └── SerialCtrl
+<details>
+<summary>2022_TeamB</summary>
+2022_TeamB
+├── .vscode
+│ ├── c_cpp_properties.json
+│ ├── launch.json
+│ └── settings.json
+├── ArduinoUNO
+│ └── DS4.ino
+└── STM32f446re
+├── Library
+│ ├── OmniMove
+│ │ ├── OmniMove.cpp
+│ │ └── OmniMove.h
+│ └── SerialCtrl
+│ ├── SerialCtrl.cpp
+│ └── SerialCtrl.h
+└── main.cpp
+</details>
+<details>
+<summary>2023_TeamA</summary>
+2023_TeamA
+├── ArduinoUNO
+│ └── DS4.ino
+└── STM32f446re
+├── Library
+│ ├── OmniMove
+│ │ ├── OmniMove.cpp
+│ │ └── OmniMove.h
+│ ├── SerialCtrl
 │ │ ├── SerialCtrl.cpp
 │ │ └── SerialCtrl.h
-│ └── main.cpp
-├── 2023_TeamA
-│ ├── ArduinoUNO
-│ │ └── DS4.ino
-│ └── STM32f446re
-│ ├── Library
-│ │ ├── OmniMove
-│ │ │ ├── OmniMove.cpp
-│ │ │ └── OmniMove.h
-│ │ ├── SerialCtrl
-│ │ │ ├── SerialCtrl.cpp
-│ │ │ └── SerialCtrl.h
-│ │ └── SoftI2C
-│ │ ├── SoftI2C.cpp
-│ │ └── SoftI2C.h
-│ └── main.cpp
-└── aws_20240701
+│ └── SoftI2C
+│ ├── SoftI2C.cpp
+│ └── SoftI2C.h
+└── main.cpp
+</details>
+<details>
+<summary>aws_20240701</summary>
+aws_20240701
 ├── css
 │ └── custom_style.css
 ├── img
@@ -249,4 +244,5 @@ bash
 │ ├── display.php
 │ └── gpio_control.php
 └── index.html
+</details>
 </pre>
